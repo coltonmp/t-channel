@@ -1,0 +1,18 @@
+screen
+setupATLAS
+lsetup "root 6.20.06-x86_64-centos7-gcc8-opt"
+export LD_LIBRARY_PATH=/eos/home-c/cpeterso/MG5_aMC_v2_7_3/HEPTools/lhapdf6/lib:$LD_LIBRARY_PATH
+export ROOT_INCLUDE_PATH=/eos/home-c/cpeterso/MG5_aMC_v2_7_3/HEPTools/madanalysis5/madanalysis5/tools/delphes/external:$ROOT_INCLUDE_PATH
+python2 ./bin/mg5_aMC
+launch <Name of File ~ DMSimp_t_10_100 etc>
+
+#rm -rf /eos/user/c/cpeterso/MG5_aMC_v2_7_3/DMSimp_t-S3D_uR_scan_10_100_TEST/Events/run*
+#rm -rf /eos/user/c/cpeterso/MG5_aMC_v2_7_3/DMSimp_t-S3D_uR_scan_10_100_TEST/HTML/run*
+
+
+#10772.pts-0.lxplus726 = 10-100
+#26381.pts-35.lxplus750 = 200-300
+#1339.pts-65.lxplus725 = 400-500
+#22192.pts-1.lxplus789 = 600-700
+#18088.pts-2.lxplus721 = 800-1000
+#21343.pts-79.lxplus7108 = 1600-2000
