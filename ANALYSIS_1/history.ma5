@@ -1,0 +1,3 @@
+set main.currentdir = /eos/home-c/cpeterso/madanalysis5
+set main.recast = on
+import tag_2_pythia8_events.hepmc
